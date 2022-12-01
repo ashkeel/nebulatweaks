@@ -9,11 +9,11 @@ This is basically mod for mods! It messes with the mods lua vars and things like
 Currently in:
 
 - Removes Ring Runner and Chaos Ring Runners, the two universally hated battle modes in the server.
-- Disabling Juicebox gates in specific maps because sometimes you *really* don't want that boost.
+- Disabling Juicebox gates in specific maps because sometimes you _really_ don't want that boost.
 
 Experimenting with:
 
-- A BattlePlus mode ~~ripping off~~ *inspired* by [Teamkill](https://store.steampowered.com/app/1730020/Teamkill/)
+- A BattlePlus mode ~~ripping off~~ _inspired_ by [Teamkill](https://store.steampowered.com/app/1730020/Teamkill/)
 
 Soon?
 
@@ -21,10 +21,14 @@ Soon?
 
 ## Ok but why?
 
-A lot of mods nowadays are not reusable and that pisses me off! If I can't modify the PK3 themselves, I'm going to patch them out later, even if it's done in a horrible and disgusting way! 
+A lot of mods nowadays are not reusable and that pisses me off! If I can't modify the PK3 themselves, I'm going to patch them out later, even if it's done in a horrible and disgusting way!
 
 I will apologize to all my fellow players who have their client go left and right, but I will not apologize to mod creators for making their copyright-stealing shit non-reusable.
 
-## Can i modify this?
+## Credits and sources
+
+VOTEMUSIC: [What the ‘L? [Earthworm Jim]](https://zackerywilson.bandcamp.com/track/what-the-l-earthworm-jim) by Zackery Wilson
+
+## Can I modify this?
 
 Please feel free to! All I ask if that you change the name, I called it `xl_nebulatweaks*.pk3` as it applies to my server (nebula.cafe).
