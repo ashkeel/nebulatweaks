@@ -3,8 +3,8 @@ local teamcolors = {}
 local teamnames = {}
 
 teamkill.Func = function()
-	for p in players.iterate
-		if (p.exiting) return end
+	for p in players.iterate do
+		if p.exiting then return end
 		-- If a player doesn't have a team give them one
 		if p.bp.neb_tk_team == nil then
 			p.bp.savedskincolor = p.skincolor
@@ -29,7 +29,7 @@ teamkill.WinningTeam = function()
 	-- Only true if everyone is on the same team
 	for p in players.iterate do
 	 	-- Only playing players
-		if (p.spectator) then continue end
+		if p.spectator then continue end
 		-- Get team
 		local team = p.bp.neb_tk_team
 
@@ -44,7 +44,7 @@ end
 
 teamkill.CustomEnd = function()
 	-- Mostly copied from battleplus.EndBattle
-	for p in players.iterate
+	for p in players.iterate do
 		-- Restore color
 		if (p.mo and p.mo.valid)
 			p.mo.colorized = false
@@ -81,7 +81,7 @@ teamkill.PlayerDamage = function(p, inflictor, source)
 		source.player.bp.neb_tk_score = $+1 -- Only 1 since they're getting the other right away
 
 		-- Give everyone on that team a point, SHARING IS CARING!
-		for pother in players.iterate
+		for pother in players.iterate do
 			if pother.bp.neb_tk_team == sourceTeam then
 				pother.bp.neb_tk_score = $+1
 				pother.marescore = pother.bp.neb_tk_score

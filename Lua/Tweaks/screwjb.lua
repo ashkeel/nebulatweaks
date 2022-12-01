@@ -24,13 +24,13 @@ local currentmap = ""
 local gatesenabled = true
 addHook("ThinkFrame", function()
 	-- Run at first frame so we don't have query this every time a ring spawns
-	if leveltime == 1 and currentmap != G_BuildMapName(gamemap) then
+	if leveltime == 1 and currentmap ~= G_BuildMapName(gamemap) then
 		currentmap = G_BuildMapName(gamemap)
 		gatesenabled = true
-		for _i,v in ipairs(gateblacklist)
+		for _, v in ipairs(gateblacklist) do
 			if currentmap == v then
 				gatesenabled = false
-				for p in players.iterate
+				for p in players.iterate do
 					CONS_Printf(p, "HEY, LISTEN! Gates are disabled on this map!")
 				end
 				break
