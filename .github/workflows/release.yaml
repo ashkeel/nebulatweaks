@@ -1,4 +1,4 @@
-name: Release
+name: Archive and create release
 
 on:
   push:
@@ -6,15 +6,14 @@ on:
       - "*"
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v2
       - uses: montudor/action-zip@v1
-        with:
-          args: zip -qq -r xl_nebulatweaks_v${GITHUB_REF_NAME}.pk3 . -x .*
+      - run: zip -qq -r xl_nebulatweaks_v${GITHUB_REF_NAME}.pk3 . -x .*
       - uses: ncipollo/release-action@v1
         with:
           artifacts: "xl_nebulatweaks*.pk3"
