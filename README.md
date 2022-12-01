@@ -10,6 +10,7 @@ Currently in:
 
 - Removes Ring Runner and Chaos Ring Runners, the two universally hated battle modes in the server.
 - Disabling Juicebox gates in specific maps because sometimes you _really_ don't want that boost.
+- Saying "HELL" during map voting will call for a vote to go to a random hell map
 
 Experimenting with:
 
