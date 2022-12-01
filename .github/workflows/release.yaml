@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: montudor/action-zip@v1
-      - run: zip -qq -r xl_nebulatweaks_${GITHUB_REF_NAME}.pk3 . -x .github -x .gitignore -x .git
+      - run: zip -qq -r xl_nebulatweaks_${GITHUB_REF_NAME}.pk3 . -x *.git* -x .gitignore
       - uses: ncipollo/release-action@v1
         with:
           artifacts: "xl_nebulatweaks*.pk3"
