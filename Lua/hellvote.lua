@@ -48,7 +48,7 @@ addHook("PlayerMsg", function(source, msgtype, target, msg)
     if msgtype ~= 0 then
         return
     end
-    if (msg:sub(1, 4):lower() ~= "hell") then
+    if (msg:lower() ~= "hell") then
         return
     end
     if server.HMvtimer then
