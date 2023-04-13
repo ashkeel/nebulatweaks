@@ -4,27 +4,21 @@ Hello casual snooper
 
 ## What's this
 
-This is basically mod for mods! It messes with the mods lua vars and things like that to modify things that are not exposed via cvars (for non-reusable mods at least)
+This is basically mod for mods! It messes with the mods lua vars and things like that to modify things that are not exposed via cvars (for non-reusable mods and to minimize forks)
 
 Currently in:
 
-- Removes Ring Runner and Chaos Ring Runners, the two universally hated battle modes in the server.
 - Disabling Juicebox gates in specific maps because sometimes you _really_ don't want that boost.
 - Saying "HELL" during map voting will call for a vote to go to a random hell map
-
-Experimenting with:
-
-- A BattlePlus mode ~~ripping off~~ _inspired_ by [Teamkill](https://store.steampowered.com/app/1730020/Teamkill/)
 
 Soon?
 
 - Random race mutators
 
-## Ok but why?
+Removed:
 
-A lot of mods nowadays are not reusable and that pisses me off! If I can't modify the PK3 themselves, I'm going to patch them out later, even if it's done in a horrible and disgusting way!
-
-I will apologize to all my fellow players who have their client go left and right, but I will not apologize to mod creators for making their copyright-stealing shit non-reusable.
+- Removes Ring Runner and Chaos Ring Runners, the two universally hated battle modes in the server. (Removed in v3.2)
+- Incomplete TeamKill mode (Removed in v3.2)
 
 ## Credits and sources
 
