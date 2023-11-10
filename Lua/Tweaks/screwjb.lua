@@ -12,7 +12,7 @@ local gateblacklist = {
 	"MAPHD", -- Rainbow road classic (precise handling required)
 	"MAPHJ", -- Septic quarry (precise handling required)
 	"MAPNH", -- Wario's challenge (precise handling on the last stretch)
-	"MAPNQ", -- Wario deluxe (precise handling on the last stretch)
+	"MAPNO", -- Wario deluxe (precise handling on the last stretch)
 	"MAPTD", -- Monkey Island (precise handling required)
 	"MAPVF", -- Sloppy sludge (two-sided track)
 	"MAPWL", -- Simulation grounds (too much RNG)
